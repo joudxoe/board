@@ -9,7 +9,7 @@ module.exports = {
      * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
      */
     const {STRING,INTEGER,DATE,TEXT} = Sequelize;
-    await queryInterface.createTable('messages',{
+    await queryInterface.createTable('messages', {
       id: {
         type: INTEGER.UNSIGNED, 
         primaryKey: true, 
